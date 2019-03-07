@@ -1,0 +1,122 @@
+.bd {
+   background: #fafafa;
+   display: flex;
+   flex-direction: column;
+   flex-wrap: nowrap;
+   justify-content: center;
+   align-items: center;
+}
+.hd {
+   margin-bottom: 3%;
+}
+.bd > .hd, .mn, .ft {
+  background: #fafafa;
+}
+.mn, .padding {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-items: center;
+  border-color: #e6e6e6;
+  padding-left: 5%;
+}
+.art--right {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: center;
+  padding-bottom: 3%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.sct--above {
+    background: #ffffff;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    padding: 1%;
+    padding-top: 1%; 
+    align-items: center; 
+    margin: 10% 10% 0% 10%;
+}
+.sct--below {
+    background: #ffffff;
+    border: 1px solid #efefef;
+    border-radius: 2px;
+    padding: 1%;
+    display: flex
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    margin: 1% 10% 3% 10%;
+}
+.ht--1 {
+    color: #262626;
+    font-family: Lobster;
+}
+.ht--2 {
+    font-size: 95%;
+    color: #999999
+}
+#motto, p {
+    color: #999999;
+    text-align: center;
+}
+.frm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap
+    justify-content: center;
+    align-items: center;
+}
+.inpt {
+  background: #fafafa;
+  color: #999999;
+  padding: 4%;
+  margin: 0.1%;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-family: Lobster;
+}
+.btn, #greet {
+  border: 1px solid #3897f0;
+  color: #ffffff;
+  background:  #3897f0;
+  border-radius: 4px;
+  width: 75%;
+  padding: 3%;
+  font-family: Lobster;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+.ft {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: baseline;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+  align-items: center;
+}
+a {
+  text-decoration: none;
+  font-family: Lobster;
+  text-transform: lowercase;
+  color: #3897f0;
+  padding-left: 6%;
+  padding-right:6%;
+}
+.a--footer {
+  color: #999999;
+  font-size: 80%;
+}
