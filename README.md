@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/blessberry/epic-mail.svg?branch=master)](https://travis-ci.com/blessberry/epic-mail)
+
 # epic-mail
 mail exchange platform
 
