@@ -1,6 +1,7 @@
 const user = require('../controllers/user');
 const message = require('../controllers/message'); 
 const express = require('express');
+
 const app = express();
 
 app.use(express.json());
