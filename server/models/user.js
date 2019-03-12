@@ -5,12 +5,12 @@ class User {
     this.users = [];
   }
 
-  create(info) {
+  create(req) {
     const user = {
       id: uuid.v4(),
-      firstName: info.firstName || '',
-      lastName: info.lastName || '',
-      password: info.password || '',
+      firstName: req.firstName || '',
+      lastName: req.lastName || '',
+      password: req.password || '',
     };
     this.users.push(user);
     return user;

@@ -1,6 +1,6 @@
 :root {
     --background-color: #fafafa;
-    --border-color: 1px solid #f1f1f1;
+    --border-color: 3px solid #f1f1f1;
     --border-radius: 5px;
 }
 .bd {
@@ -13,7 +13,7 @@
         "aside nav nav"
         "aside content content"
         "aside footer footer";
-    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+        
 }
 .hd {
     grid-area: header;
@@ -24,13 +24,16 @@
     padding: 3% 11% 1% 11%;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center; 
+    align-items: center;
+
 }
 .sct--header__one {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     font-family: Lobster;
+    font-size: 150%;
+    color: #999999;
 }
 [type=text] {
     display: flex;
@@ -41,6 +44,8 @@
 }
 textarea {
     border: 0px solid;
+    height: auto;
+    width: 100%;
 }
 span {
    float: right; 
@@ -49,24 +54,6 @@ span {
     max-width: 100%;
     display: block;
     height: auto;
-}
-.sct--header__two {
-    background: #fafafa;
-    background: var(--background-color, #fafafa);
-    border: 1px solid #f1f1f1;
-    border: var(--border-color, #f1f1f1);
-    border-radius: 5px;
-    border-radius: var(--border-radius, 5px);
-    height: 3%;
-    padding-right: 8%;
-    padding-left: 8%;
-    color: #999999;
-    font-family: Lobster;
-    font-size: 80%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    transform: scale(1.2);
 }
 a {
     text-decoration: none;
@@ -147,5 +134,7 @@ a {
    background: #ffffff;
    border-radius: 5px;
    border: 4px solid #f1f1f1;
-   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+   color: #3897f0;
+   font-family: Lobster;
+   font-size: 70%;
 }

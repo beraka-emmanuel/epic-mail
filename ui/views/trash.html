@@ -1,7 +1,7 @@
 <!DOCTYPE html> 
 <html lang="en-US">
     <head>
-        <title>Admin • EPIC Mail</title>
+        <title>Trash • EPIC Mail</title>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
@@ -17,24 +17,27 @@
             </section>
         </header>
         <main class="mn">
-            <section class="sct sct--main sct--main__one">
-            <nav class="nv nv--main">
-                <input type="text" placeholder="To: ..." />
-                <input type="text" placeholder="Subject: ..." />
-            </nav>
-            </section>
-            <section class="sct sct--main sct--main__two">
-                <textarea placeholder="Write mail here ..." cols="80" rows="15"></textarea>
-            </section>
+            <div id="msg--one" class="msg">
+                <img src="../assets/logo-enveloppe.png" alt="logo icon" id="logo" /><span>Deleted Message</span>
+            </div>
+            <div class="msg">
+                <img src="../assets/logo-enveloppe.png" alt="logo icon" id="logo" /><span>Deleted Message</span>
+            </div>
+            <div class="msg">
+                <img src="../assets/logo-enveloppe.png" alt="logo icon" id="logo" /><span>Deleted Message</span>
+            </div>
         </main>
         <aside class="asd asd--main asd--main__one">
-            <div id="line"><img src="../assets/logo-profile.png" class="photo" alt="profile photo" /><a href="#" title="your account">Admin</a></div>
+            <div id="line">
+                <img src="../assets/logo-profile.png" class="photo" alt="profile photo" />
+                <a href="#" title="your account">Draft</a>
+            </div>
             <div class="lk"><a href="./compose.html" title="Write a mail">Compose</a></div>
             <div class="lk"><a href="./inbox.html" title="Check your incoming mails">Inbox</div>
             <div class="lk"><a href="./sent.html" title="Check your sent mails">Sent</div>
             <div class="lk"><a href="./draft.html" title="Check your saved mails">draft</div>
-            <div class="lk"><a href="./trash.html" title="Check your deleted mails">Trash</div>
             <div class="lk"><a href="./groups.html" title="Create groups & members">Groups</div>
+            <div class="lk"><a href="./trash.html" title="Create groups & members">Trash</div>
         </aside>
    </body>
    <footer class="ft"> 
